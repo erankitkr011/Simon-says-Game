@@ -1,0 +1,129 @@
+/* ! Simon Says Game */
+body{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: #f99b45;;
+}
+.red{
+    background-color: #d95980;
+}
+.purple{
+    background-color: #819ff9;
+}
+.green{
+    background-color: #63aac0;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+@media screen and (max-width: 375px) and (max-height: 667px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+    .btn{
+        height: 120px;
+        width: 120px;
+        margin: 1rem;
+    }
+}
+h3{
+    text-align: right;
+    margin: 15px;
+}
+span{
+    color: red;
+}
+ak{
+    color: greenyellow;
+}
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+    .btn{
+        height: 120px;
+        width: 120px;
+        margin: 1rem;
+    }
+}
+h3{
+    text-align: right;
+    margin: 15px;
+}
+span{
+    color: red;
+}
+ak{
+    color: greenyellow;
+}
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+    .btn{
+        height: 120px;
+        width: 120px;
+        margin: 1rem;
+    }
+}
+h3{
+    text-align: right;
+    margin: 15px;
+}
+span{
+    color: red;
+}
+ak{
+    color: greenyellow;
+}
+@media screen and (max-width: 280px) and (max-height: 653px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+    .btn{
+        height: 100px;
+        width: 100px;
+        margin: 1rem;
+    }
+}
+h3{
+    text-align: right;
+    margin: 15px;
+}
+span{
+    color: red;
+}
+ak{
+    color: greenyellow;
+}
